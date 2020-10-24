@@ -1,0 +1,4 @@
+name: mvc
+recipe: lamp
+config:
+  webroot: .
