@@ -48,14 +48,14 @@ class IndexModel extends Model{
 
             // Настройки вашей почты
             $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
-            $mail->Username   = 'vovaivanitskyi@gmail.com'; // Логин на почте
-            $mail->Password   = 'volodimirim312'; // Пароль на почте
+            $mail->Username   = 'logini@gmail.com'; // Логин на почте
+            $mail->Password   = 'password'; // Пароль на почте
             $mail->SMTPSecure = 'ssl';
             $mail->Port       = 465;
-            $mail->setFrom('vovaivanitskyi@gmail.com', 'Имя отправителя'); // Адрес самой почты и имя отправителя
+            $mail->setFrom('login@gmail.com', 'Имя отправителя'); // Адрес самой почты и имя отправителя
 
             // Получатель письма
-            $mail->addAddress('vovaivanitskyi@gmail.com');
+            $mail->addAddress('login@gmail.com');
 
 
             if (!empty($file['name'][0])) {
