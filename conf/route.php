@@ -4,7 +4,6 @@
  class Routing {
     public static function buildRout(){
         ini_set("display_errors", 1);
-
         error_reporting(E_ERROR | E_WARNING | E_PARSE);
         /*контролер і action за замовчуванням */
         $controllerName = "IndexController";
@@ -25,8 +24,5 @@
         }
         $controller = new $controllerName();
         $controller->$action(); //$controller->index();
-    }
-    public function errorPage(){
-
     }
  }

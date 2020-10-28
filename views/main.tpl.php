@@ -22,7 +22,7 @@
                     <input id="name" type="text" name="form[name]" class="form-control" value="<?php echo !empty($_POST['form']['name']) ? $_POST['form']['name'] : FALSE;?>" placeholder="Ім'я" minlength="2"
                            maxlength="30" required="required">
                     <i class="info">Лише символи латиниці и кирилиці</i>
-                    <span class="error">* <?php echo !empty($pageData['error_name']) ? $pageData['error_name'] : FALSE;?></span>
+                    <span class="error">* <?php echo !empty($pageData['errors']['error_name']) ? $pageData['errors']['error_name'] : FALSE;?></span>
                     <div class="invalid-feedback"></div>
                 </div>
 
@@ -31,7 +31,7 @@
                     <label for="email" class="control-label">Email-адреса</label>
                     <input id="email" type="email" name="form[email]" required="required" class="form-control" value="<?php echo !empty($_POST['form']['email']) ? $_POST['form']['email'] : FALSE;?>"
                            placeholder="Email-адреса">
-                    <span class="error">* <?php echo !empty($pageData['error_email']) ? $pageData['error_email'] : FALSE;?></span>
+                    <span class="error">* <?php echo !empty($pageData['errors']['error_email']) ? $pageData['errors']['error_email'] : FALSE;?></span>
                     <div class="invalid-feedback"></div>
                 </div>
 
@@ -42,7 +42,7 @@
                     <label for="male">Чоловік</label>
                     <input type="radio" id="female" name="form[gender]" value="female">
                     <label for="female">Жінка</label><br>
-                    <span class="error">* <?php echo !empty($pageData['error_gender']) ? $pageData['error_gender'] : FALSE;?></span>
+                    <span class="error">* <?php echo !empty($pageData['errors']['error_gender']) ? $pageData['errors']['error_gender'] : FALSE;?></span>
                 </div>
 
                 <!-- Возраст пользователя -->
@@ -52,7 +52,7 @@
                            placeholder="Ваш вік">
                     <div class="invalid-feedback"></div>
                     <i class="info">Лише цифри</i>
-                    <span class="error">* <?php echo !empty($pageData['error_age']) ? $pageData['error_age'] : FALSE;?></span>
+                    <span class="error">* <?php echo !empty($pageData['errors']['error_age']) ? $pageData['errors']['error_age'] : FALSE;?></span>
                 </div>
 
 
@@ -62,7 +62,7 @@
                     <textarea  id="message" name="form[message]" class="form-control" rows="3"
                               placeholder="(не меньше 20-ти символів)" minlength="20" maxlength="500"
                               required="required"></textarea>
-                    <span class="error">* <?php echo !empty($pageData['error_message']) ? $pageData['error_message'] : FALSE;?></span>
+                    <span class="error">* <?php echo !empty($pageData['errors']['error_message']) ? $pageData['errors']['error_message'] : FALSE;?></span>
                 </div>
 
 
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <span class="error">* <?php echo !empty($pageData['error_file']) ? $pageData['error_file'] : FALSE;?></span>
+                    <span class="error">* <?php echo !empty($pageData['errors']['error_file']) ? $pageData['errors']['error_file'] : FALSE;?></span>
                 </div>
 
 

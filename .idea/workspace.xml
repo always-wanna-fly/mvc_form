@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5e7ea1-e6f1-4b9e-a467-73997c96892f" name="Default Changelist" comment="" />
+    <list default="true" id="7a5e7ea1-e6f1-4b9e-a467-73997c96892f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/conf/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/IndexModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/IndexModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.tpl.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +16,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j9C4OSjosTSNmaZeHEynxYGEtt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -18,8 +28,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controllers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -46,7 +57,11 @@
       <workItem from="1603263845623" duration="7002000" />
       <workItem from="1603296545505" duration="25761000" />
       <workItem from="1603477977476" duration="12689000" />
-      <workItem from="1603562758209" duration="11408000" />
+      <workItem from="1603562758209" duration="11690000" />
+      <workItem from="1603642353439" duration="1010000" />
+      <workItem from="1603720196351" duration="4376000" />
+      <workItem from="1603725961624" duration="113000" />
+      <workItem from="1603726100707" duration="6978000" />
     </task>
     <servers />
   </component>
@@ -54,13 +69,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="420" width="488" height="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603481105180">
+    <state x="744" y="420" width="478" height="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1603725613338">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="744" y="420" width="488" height="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1603481105180" />
+    <state x="744" y="420" width="478" height="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1853.1053@67.27.1853.1053" timestamp="1603725613338" />
+    <state x="1152" y="136" width="557" height="828" key="Diagram.Print.Preview.Dialog" timestamp="1603723936045">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1152" y="136" width="557" height="828" key="Diagram.Print.Preview.Dialog/67.27.1853.1053@67.27.1853.1053" timestamp="1603723936045" />
+    <state x="1203" y="278" width="454" height="543" key="FileChooserDialogImpl" timestamp="1603726156893">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1203" y="278" width="454" height="543" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1603726156893" />
     <state x="1132" y="406" width="399" height="149" key="NewPhpFileDialog" timestamp="1603487536904">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1132" y="406" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1603487536904" />
+    <state x="861" y="250" key="SettingsEditor" timestamp="1603726073607">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="861" y="250" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603726073607" />
+    <state x="1099" y="252" key="run.anything.popup" timestamp="1603723915737">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1099" y="252" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1603723915737" />
   </component>
 </project>
